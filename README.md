@@ -1,8 +1,8 @@
-![animation_gif](https://github.com/poweleli/flappy_bird/assets/62043475/2c89792c-7496-4769-af15-2f76f412b627)
-
 ![Header-removebg](https://github.com/jeffxhansen/FlappyBirdOptimalControl/assets/62043475/c1e1351d-213c-45f5-b4ca-f1767beccdd2)
 
 By: Jeff Hansen, Gwen Martin, Benjamin McMullin, Eliza Powell
+
+![animation_gif](https://github.com/poweleli/flappy_bird/assets/62043475/2c89792c-7496-4769-af15-2f76f412b627)
 
 # Abstract
 We employ optimal control techniques to create a solution to the popular mobile game Flappy Bird. Our obstacle avoidance model allows the bird to safely navigate through a series of pipes by adding spikes of acceleration to contend with the constant pull of gravity. We formulate this problem with a cost functional that contains a reward and cost component. We reward the control when it successfully guides the bird in between the pipes, and we penalize the control when its shape deviates from a tapping motion. 
